@@ -1,0 +1,13 @@
+[package]
+name = "win-ambilight"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.80"
+clap = { version = "4.5.1", features = ["derive"] }
+serialport = "4.3.0"
+windows-capture = "1.0.65"
+
+[build-dependencies]
+bindgen = "0.69.4"
